@@ -11,7 +11,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ['https://mypushtak.netlify.app/']
+  origin: ['https://my-pushtak-dbk3.vercel.app/']
 }));
 app.use(express.json());
 
