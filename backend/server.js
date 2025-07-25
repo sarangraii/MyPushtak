@@ -10,9 +10,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({
-  origin: ['https://my-pushtak-dbk3.vercel.app/']
-}));
+app.use(cors());
 app.use(express.json());
 
 // Routes
