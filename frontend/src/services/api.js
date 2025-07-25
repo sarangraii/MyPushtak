@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://my-pushtak.vercel.app/';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://my-pushtak.vercel.app/api';
 
 // Generic API call function with better error handling
 const apiCall = async (url, options = {}) => {
