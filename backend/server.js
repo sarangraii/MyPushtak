@@ -10,7 +10,9 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['https://mypushtak.netlify.app/']
+}));
 app.use(express.json());
 
 // Routes
